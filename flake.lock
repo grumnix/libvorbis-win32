@@ -32,7 +32,7 @@
     },
     "libogg": {
       "inputs": {
-        "flake-utils": "flake-utils_2",
+        "flake-utils": "flake-utils",
         "libogg_src": "libogg_src",
         "nixpkgs": "nixpkgs",
         "tinycmmc": "tinycmmc"
@@ -109,7 +109,6 @@
     },
     "root": {
       "inputs": {
-        "flake-utils": "flake-utils",
         "libogg": "libogg",
         "libvorbis_src": "libvorbis_src",
         "nixpkgs": "nixpkgs_2",
@@ -143,9 +142,7 @@
     },
     "tinycmmc_2": {
       "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
+        "flake-utils": "flake-utils_2",
         "nixpkgs": [
           "nixpkgs"
         ]
